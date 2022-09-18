@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/masonry/">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+</style>
+ 
+</head>
+<body> 
+   
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dark Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+      <a class="nav-link " aria-current="page" href="mybootweb.html">Home</a>
+     </li>
+    <li class="nav-item">
+    <a class="nav-link  active" href="#">Web Design</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       About
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="contact.html" tabindex="-1" >Contact us</a></li>
+       <li><a class="dropdown-item" href="action.html">Action</a></li>
+     <li><a class="dropdown-item" href="about.html">ABout-us</a></li>
+ 
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="Javascript.html" tabindex="-1" >Javascript</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html" tabindex="-1" >Contact-us</a>
+        </li>
+    
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+    </form>
+ 
+     </div>
+     <div></div>
+       <!-- Button trigger modal -->
+   <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Singup
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title me-2" id="exampleModalLabel">Singup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container " id="c4" style="width:100% ;">
+            <div class="row justify-content-center">
+               <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="text-center m-auto">
+                             <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                          </div>
+                          <form action="#" method="post">
+                             <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                             <div class="form-group mb-3">
+                                <label for="fname">FIRST NAME </label>
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="fname">LAST NAME </label>
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="emailaddress">EMAIL </label>
+                                <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                                   <div class="input-group-addon">
+                                      <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                             </div>
+                             <div class="form-group mb-0 d-flex justify-content-between">
+                                <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                             </div>
+                             <script>
+                                $(document).ready(function() {
+                                    $("#show_hide_password a").on('click', function(event) {
+                                        event.preventDefault();
+                                        if($('#show_hide_password input').attr("type") == "text"){
+                                            $('#show_hide_password input').attr('type', 'password');
+                                            $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').removeClass( "fa-eye" );
+                                        }else if($('#show_hide_password input').attr("type") == "password"){
+                                            $('#show_hide_password input').attr('type', 'text');
+                                            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').addClass( "fa-eye" );
+                                        }
+                                    });
+                 
+                                });
+                             </script>
+                          </form>
+                       </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //modal auto load
+    $(window).on('load', function() {
+      // $('#exampleModal').modal('show');
+    });
+  </script>
+         <button type="button" class="btn btn-outline-primary " ><a href="login.html" style="color:white ; text-decoration: none;"> Login</a></button>
+    </div>
+    </nav>
+    <div class="container">
+        
+       
+        
+            <div class="container py-5">
+                <h1>Web Desinging</h1>
+                <p class="lead"> Web Desinging is a good art. It is very easy and easy to learn.</p>
+        
+                <p> Before doing  Web Design we have to learn HTML and Css.because it is base to learn Web DEsinging</p>
+                <hr class="my-5">
+        
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                                <rect width="100%" height="100%" fill="#868e96" /><img style="width: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3sx-DtVDbTfvaaXwkE7xdk7B5mkB78MFHw&usqp=CAU" alt="">
+                            </svg>
+        
+                            <div class="card-body">
+                                <h5 class="card-title">Card Desing</h5>
+                                <p class="card-text">This is a card desing technique.It is verry easy to use.This is first step to learn web desing.If you are intreested to learn web desing you must have learn card desing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3">
+                            <figure class="p-3 mb-0">
+                                <blockquote class="blockquote">
+                                    <p>Before you design your website, there are a few things you’ll need to have ready. Generally, you’ll need the website builder itself, a domain registrar and a web hosting platform (if you’ve chosen a website builder that doesn’t include hosting in its package). You’ll also need an SSL certificate to secure the site, a point-of-sale (POS) system for payments and a search engine optimization (SEO) tool to ensure that people find you. </p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mb-0 text-muted">
+                                    Web Developer<cite title="Source Title">Anil Godara</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+      
+                                <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/09/Image_-_How_to_design_a_website_.jpeg.jpg" alt="">
+                                <title>Developer</title>
+                                <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
+                                    dy=".3em">Track</text>
+                            </svg>
+        
+                            <div class="card-body">
+                                <h5 class="card-title">Web Desing</h5>
+                                <p class="card-text">If you want to learn web desing by online classes then join our channel.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card bg-primary text-white text-center p-3">
+                            <figure class="mb-0">
+                                <blockquote class="blockquote">
+                                    <p>I really Intrested in web devloping since childhood.so i join KMA technoware to leran coding.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mb-0 text-white">
+                                    Full Stack Developer  <cite title="Source Title">Anil Godara </cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Facts</h5>
+                                <p class="card-text">Starting as a real cafe in 1996, CoffeCup first used the HTML Editor. Its mission has always been to develop web design tools and services that will help you build better websites. CoffeCup is committed to providing you with exceptional service so that we may both achieve. For Web designers, they provide a variety of free tools, such as an HTML editor, web form builder, shopping cart designer, and many more. These software programs and web applications provide a solid foundation for web design.
+
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                           <img src="https://www.albawaba.com/sites/default/files/im_new/areej/shutterstock_156863096_0.jpg" alt="">
+                           <br>
+                           <center><h1>Coding</h1></center>
+                                <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
+                                    dy=".3em">Making a choice among the many tools that are accessible might be complicated and daunting. Remember that choosing a good web design tool is all about functionality and purpose. As there is no one-size-fits-all tool, you may need to employ more than one design tool to create the best-designed website</text>
+                            </svg>
+        
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3 text-right">
+                            <figure class="">
+                                <blockquote class="blockquote">
+                                    <img src="data:image/png;base64,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" alt="">
+                                    <p> Web Developing and Coding increse your mind strength.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mb-0 text-muted">
+                         Web Developer<cite title="Source Title">Anil Godara</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7MwXdEo8OA2Ob0APbocVzR_76mMmtEENqA&usqp=CAU" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding Company</h5>
+                                <p class="card-text">In our country many company started in web devloping buisness. So it is a great opportunity for you.</p>
+                                <p class="card-text"><small class="text-muted">Good Luck!!</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+    </div>
+    </body>
+    </html>

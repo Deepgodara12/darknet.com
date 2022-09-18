@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+<body> 
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dark Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+      <a class="nav-link " aria-current="page" href="mybootweb.html">Home</a>
+     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="webDesign.html">Web Design</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       About
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="contact.html" tabindex="-1" >Contact us</a></li>
+       <li><a class="dropdown-item " href="action.html">Action</a></li>
+     <li><a class="dropdown-item active" href="#">ABout US</a></li>
+ 
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="Javascript.html" tabindex="-1" >Javascript</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html" tabindex="-1" >Contact-us</a>
+        </li>
+    
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+    </form>
+ 
+     </div>
+     <div></div>
+       <!-- Button trigger modal -->
+   <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Singup
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title me-2" id="exampleModalLabel">Singup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container " id="c4" style="width:100% ;">
+            <div class="row justify-content-center">
+               <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="text-center m-auto">
+                             <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                          </div>
+                          <form action="#" method="post">
+                             <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                             <div class="form-group mb-3">
+                                <label for="fname">FIRST NAME </label>
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="fname">LAST NAME </label>
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="emailaddress">EMAIL </label>
+                                <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                                   <div class="input-group-addon">
+                                      <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                             </div>
+                             <div class="form-group mb-0 d-flex justify-content-between">
+                                <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                             </div>
+                             <script>
+                                $(document).ready(function() {
+                                    $("#show_hide_password a").on('click', function(event) {
+                                        event.preventDefault();
+                                        if($('#show_hide_password input').attr("type") == "text"){
+                                            $('#show_hide_password input').attr('type', 'password');
+                                            $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').removeClass( "fa-eye" );
+                                        }else if($('#show_hide_password input').attr("type") == "password"){
+                                            $('#show_hide_password input').attr('type', 'text');
+                                            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').addClass( "fa-eye" );
+                                        }
+                                    });
+                 
+                                });
+                             </script>
+                          </form>
+                       </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //modal auto load
+    $(window).on('load', function() {
+      // $('#exampleModal').modal('show');
+    });
+  </script>
+    <button type="button" class="btn btn-outline-primary " ><a href="login.html" style="color:white ; text-decoration: none;"> Login</a></button>
+    </div>
+    </nav>
+<center>
+ <p class="lead mt-5">
+     Our Branches of Company is growing regular in all India.
+ </p></center>
+ <div class="container-fluid pe-5">
+    <p>If you want to job or want to learn coding then you can join us by online website or by coming at our branch which is situated nearest to Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae nulla exercitationem magnam ab, illum facilis corporis sit fugit dolores sequi, velit ex libero necessitatibus veritatis omnis fuga sed dolorem? Illo consequatur reprehenderit at? Tenetur dignissimos voluptates odio autem? Explicabo quaerat, et, aut accusamus voluptate, cumque harum ipsa eum ea in consectetur ipsam doloremque esse sunt quod. Dignissimos reprehenderit ut magnam, tempore in numquam, alias ducimus incidunt deleniti ad molestiae rem! Laboriosam accusamus harum deleniti explicabo saepe impedit, alias, delectus quo, modi perspiciatis placeat voluptate obcaecati dolores inventore magnam expedita numquam quod hic eos distinctio? Debitis molestiae fugiat beatae dicta exercitationem sint enim illum, veritatis corporis dolorum aspernatur minus minima possimus eum neque accusantium tenetur. Sit itaque odit ducimus cum molestiae, ipsa sed rerum! Repellendus animi fugiat repudiandae vero asperiores nam, quis, dolor voluptatum exercitationem delectus dolorem necessitatibus? Corporis tempora quis illo fugit rem fuga minus cumque vitae iure ut! Nihil iste qui consequatur dignissimos quibusdam eum ipsam, cupiditate dolores eligendi, necessitatibus magnam quis! Consectetur accusantium libero voluptas autem, corporis pariatur a, et incidunt odio commodi, consequatur quos eveniet possimus! Hic pariatur eos praesentium beatae nesciunt dolore, architecto quaerat fuga rerum optio voluptates repudiandae blanditiis quibusdam, animi dolores! Animi vitae ratione reprehenderit. Error velit est iusto sit sint optio molestiae explicabo maiores iure expedita, at itaque incidunt corporis! Molestias illo vel suscipit, veniam aliquid quod reprehenderit ex. Voluptate quasi velit molestiae cupiditate unde quidem architecto, atque sunt ullam facere saepe eaque, quae repellat molestias! Neque facere accusantium, vero fuga sapiente odit aliquid quo eaque ab eligendi illo mollitia est, atque, voluptatum pariatur ut id cupiditate voluptas? Mollitia expedita enim maiores sint, minima laborum! Asperiores cumque officia quasi facilis debitis aliquam eligendi iste itaque, expedita molestiae architecto explicabo sed nemo necessitatibus optio laboriosam sit praesentium amet exercitationem? Quis iusto, omnis, vel nisi accusamus exercitationem sapiente mollitia facere tempore facilis ipsam, laborum harum laudantium odit.</p>
+    
+ </div>
+ <div class="container">
+    <img src="https://skill-lync.com/images/ball-man.png" alt=""> <img src="https://skill-lync.com/images/zoom-man.png" alt=""> <img src="https://skill-lync.com/images/clapin-man.png" alt="">
+    <div class="border">
+        <h1>Work Hard By working hard you can learn everything.</h1>
+    </div>
+ </div>
+ <div class="container">
+    <p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVm9OuRrnFuDLwpUvX2xBlLHOs6_C_npNRUQ&usqp=CAU" alt=""> 
+        Lessons for entrepreneurs hoping to grow their start-up into a Global PowerhouseIt may come as no surprise to hear the name SMSPortal used synonymously with Omni-channel cloud communications. A 75 million dollar bootstrapped start-up that grew organically over the past 18 years, now dominating the global messaging market, shared a few lessons to their success.
+        
+        The A2P messaging market is a competitive landscape and competing for customers meant SMSPortal needed to get a few things right in their pursuit of global success.
+        
+        Recognising its potential for scale, and applying a few hard leant lessons to their formula for success, the founders outlined a few cornerstone lessons that entrepreneurs should stick to when starting up.
+        
+        Marketing Technology News:  Truecaller for Business Launches New and Enhanced Capabilities for Enterprise Customers
+        
+        #1 No need for a unicorn, but be exceptional
+        
+        It’s not necessarily about finding a unicorn idea – SMSPortal simply leveraged an existing opportunity and did it better than anybody else. The lure of being all things to all people is often a trap for new entrepreneurs. Avoid over diversifying, find a niche and focus on it.
+        
+        #2 When starting out, the environment matters
+        
+        People matter, and the age old proverb “Steel sharpens steel” rings true. Gravitate towards people with a similar mindset, attitude and vision – a like-minded environment keeps the focus. This is paramount when starting out as too often the environment is the downfall of many young entrepreneurs.
+        
+        #3 Trust the process
+        
+        Success is not luck, there is a process, trusting this helps reproduce that success, and prevents complacency. Keeping the process, direction and goals consistent is the most effective way to take the step from good to great.
+        
+        #4 Teams are an extension of their leaders – hire right
+        
+        The number one lesson of them all, scaling correctly requires the correct people. Hiring right was the reason SMSPortal was able to continue growing. Hiring the right people meant trust, ownership and responsibility could be spread across teams. Without this any start-up is headed for an inevitable growth ceiling.
+        
+        SMSPortal continues to grow from its bootstrapped roots and the lessons learnt should provide a perfect platform for other young start-ups wanting to succeed.</p>
+ </div> 
+ </div>
+</body>
+    </html>
