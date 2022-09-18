@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+<body> 
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dark Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+      <a class="nav-link " aria-current="page" href="mybootweb.html">Home</a>
+     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="webDesign.html">Web Design</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       About
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="contact.html" tabindex="-1" >Contact us</a></li>
+       <li><a class="dropdown-item active" href="#">Action</a></li>
+     <li><a class="dropdown-item" href="about.html">ABout-us</a></li>
+ 
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="Javascript.html" tabindex="-1" >Javascript</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html" tabindex="-1" >Contact-us</a>
+        </li>
+    
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+    </form>
+ 
+     </div>
+     <div></div>
+       <!-- Button trigger modal -->
+   <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Singup
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title me-2" id="exampleModalLabel">Singup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container " id="c4" style="width:100% ;">
+            <div class="row justify-content-center">
+               <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="text-center m-auto">
+                             <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                          </div>
+                          <form action="#" method="post">
+                             <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                             <div class="form-group mb-3">
+                                <label for="fname">FIRST NAME </label>
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="fname">LAST NAME </label>
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="emailaddress">EMAIL </label>
+                                <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                                   <div class="input-group-addon">
+                                      <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                             </div>
+                             <div class="form-group mb-0 d-flex justify-content-between">
+                                <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                             </div>
+                             <script>
+                                $(document).ready(function() {
+                                    $("#show_hide_password a").on('click', function(event) {
+                                        event.preventDefault();
+                                        if($('#show_hide_password input').attr("type") == "text"){
+                                            $('#show_hide_password input').attr('type', 'password');
+                                            $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').removeClass( "fa-eye" );
+                                        }else if($('#show_hide_password input').attr("type") == "password"){
+                                            $('#show_hide_password input').attr('type', 'text');
+                                            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').addClass( "fa-eye" );
+                                        }
+                                    });
+                 
+                                });
+                             </script>
+                          </form>
+                       </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //modal auto load
+    $(window).on('load', function() {
+      // $('#exampleModal').modal('show');
+    });
+  </script>
+    <button type="button" class="btn btn-outline-primary " ><a href="login.html" style="color:white ; text-decoration: none;"> Login</a></button>
+    </div>
+    </nav>
+     <style>
+          table.document-list tbody {
+             display: block;
+             height: 210px;
+             overflow: auto;
+          }
+    
+          table.document-list thead,
+          tbody tr {
+             display: table;
+             width: 100%;
+             table-layout: fixed;
+          }
+       </style>
+       <div class="container">
+          <div class="row justify-content-center align-items-center mt-5">
+             <div class="col-md-8">
+                <div class="card border-dark">
+                   <div class="card-hearder bg-dark text-center text-white py-2">
+                      <h5 class="mb-0">DOCUMENT LIST</h5>
+                   </div>
+                   <div class="card-body">
+                      <form method="post" action="" role="form">
+                         <div class="controls">
+                            <div class="row">
+                               <div class="col-md-6">
+                                  <div class="form-group mb-2">
+                                     <div class="input-group">
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search here" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                                         <div class="input-group-prepend">
+                                           <div class="input-group-text" id="btnGroupAddon">
+                                              <i class="fa fa-search"></i>
+                                           </div>
+                                         </div>
+                                        
+                                       </div>
+                                     
+                                  </div>
+                               </div>
+    
+                            </div>
+                            <div class="row">
+                               <div class="col-md-6">
+                                  <div class="form-group mb-2">
+                                     <label for="form_name">Document Name<span
+                                        class="text-danger">*</span></label></label>
+                                     <input id="form_name" type="text" name="name" class="form-control form-control-sm"
+                                        placeholder="Document Name" required="">
+                                  </div>
+                               </div>
+                               <div class="col-md-6">
+                                  <div class="form-group mb-2">
+                                     <label for="form_lastname">Document Name (Hindi)<span
+                                           class="text-danger">*</span></label>
+                                     <input id="form_lastname" type="text" name="surname"
+                                        class="form-control form-control-sm" placeholder="Document Name (Hindi)"
+                                        required="">
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-md-6">
+                                  <div class="form-group mb-2">
+                                     <label for="form_email">Document Type<span class="text-danger">*</span></label>
+                                     <select class="form-select form-select-sm" aria-label="Default select example">
+                                        <option selected>Select</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                     </select>
+                                  </div>
+                               </div>
+                               <div class="col-md-6">
+                                  <div class="form-group mb-2">
+                                     <label for="form_phone">Document Attachement</label>
+                                     <select class="form-select form-select-sm" aria-label="Default select example">
+                                        <option selected>Select</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                     </select>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </form>
+                   </div>
+                   <div class="card-footer d-flex justify-content-end">
+                      <button type="button" class="btn btn-danger btn-sm mx-3">CANCEL</button>
+                      <button type="button" class="btn btn-success btn-sm ">SUBMIT</button>
+                   </div>
+                   <div class="p-3">
+                      <table class="document-list table table-striped">
+                         <thead class="bg-dark text-white">
+                            <tr>
+                               <th scope="col" width="82px">Sno.</th>
+                               <th scope="col">Document</th>
+                               <th scope="col" width="82px">Action</th>
+                            </tr>
+                         </thead>
+                         <tbody>
+                            <tr>
+                               <td>1</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>2</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>3</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>4</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>5</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>6</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>7</td>
+                               <td>lorem ipsum</td>
+                               <td width="82px"><a href="" style="padding-right: 20px;"><i class="fa fa-trash text-danger"
+                                        aria-hidden="true"></i></a>
+                                  <a href=""><i class="fa fa-pencil text-success" aria-hidden="true"></i></a>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </body>
+    </html>

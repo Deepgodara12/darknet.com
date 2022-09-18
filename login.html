@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+<body> 
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dark Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+      <a class="nav-link " aria-current="page" href="mybootweb.html">Home</a>
+     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="webDesign.html">Web Design</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       About
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="contact.html" tabindex="-1" >Contact us</a></li>
+       <li><a class="dropdown-item" href="action.html">Action</a></li>
+     <li><a class="dropdown-item" href="about.html">ABout-us</a></li>
+ 
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="Javascript.html" tabindex="-1" >Javascript</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html" tabindex="-1" >Contact-us</a>
+        </li>
+    
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+    </form>
+ 
+     </div>
+     <div></div>
+       <!-- Button trigger modal -->
+   <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Singup
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title me-2" id="exampleModalLabel">Singup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container " id="c4" style="width:100% ;">
+            <div class="row justify-content-center">
+               <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="text-center m-auto">
+                             <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                          </div>
+                          <form action="#" method="post">
+                             <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                             <div class="form-group mb-3">
+                                <label for="fname">FIRST NAME </label>
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="fname">LAST NAME </label>
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="emailaddress">EMAIL </label>
+                                <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                                   <div class="input-group-addon">
+                                      <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                             </div>
+                             <div class="form-group mb-0 d-flex justify-content-between">
+                                <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                             </div>
+                             <script>
+                                $(document).ready(function() {
+                                    $("#show_hide_password a").on('click', function(event) {
+                                        event.preventDefault();
+                                        if($('#show_hide_password input').attr("type") == "text"){
+                                            $('#show_hide_password input').attr('type', 'password');
+                                            $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').removeClass( "fa-eye" );
+                                        }else if($('#show_hide_password input').attr("type") == "password"){
+                                            $('#show_hide_password input').attr('type', 'text');
+                                            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').addClass( "fa-eye" );
+                                        }
+                                    });
+                 
+                                });
+                             </script>
+                          </form>
+                       </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //modal auto load
+    $(window).on('load', function() {
+      // $('#exampleModal').modal('show');
+    });
+  </script>
+    <button type="button" class="btn btn-outline-primary active">Login</button>
+       <!-- .alert-primary, .alert-secondary, .alert-success, .alert-danger, .alert-warning, .alert-info, .alert-light, .alert-dark -->
+    </div>
+    </nav>
+    <div class="container mt-5 pt-5 mb-5" id="remo" style="visibility:visible ;">
+      <div class="row justify-content-center">
+         <div class="col">
+            <div class="card">
+               <div class="card-body">
+                  <div class="text-center ">
+                     <h4 class="text-uppercase text-center">Login</h4>
+                  </div>
+                  <form action="#" method="post">
+                     <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                     <div class="form-group ">
+                        <label for="emailaddress">Email </label>
+                        <input type="email" name="email" placeholder="Enter email" class="form-control" required="">
+                     </div>
+                     <div class="form-group ">
+                        <label for="password">Password</label>
+                        <div class="input-group bg-light" id="show_hide_password">
+                           <input type="password" class="form-control" id="password"  name="password"  placeholder="Enter Password" required="">
+                           <div class="input-group-addon">
+                              <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group ">
+                        <div class="custom-control custom-checkbox checkbox-success">
+                           <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
+                           <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                        </div>
+                     </div>
+                     <div class="form-group mb-0 text-center">
+                        <button class="btn btn-primary btn-block" type="submit" name="submit"> Log In </button>
+                     </div>
+                     <script>
+                        $(document).ready(function() {
+                            $("#show_hide_password a").on('click', function(event) {
+                                event.preventDefault();
+                                if($('#show_hide_password input').attr("type") == "text"){
+                                    $('#show_hide_password input').attr('type', 'password');
+                                    $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                    $('#show_hide_password i').removeClass( "fa-eye" );
+                                }else if($('#show_hide_password input').attr("type") == "password"){
+                                    $('#show_hide_password input').attr('type', 'text');
+                                    $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                    $('#show_hide_password i').addClass( "fa-eye" );
+                                }
+                            });
+                        });
+                     </script>
+                  </form>
+    <!-- Modal trigger button -->
+    <button type="button" class="btn btn-outline-light" style="color:black ;" data-bs-toggle="modal" data-bs-target="#modalId">
+      Forgot Password?
+    </button>
+    
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mt-5 pt-5 mb-5">
+                        <div class="row justify-content-center">
+                           <div class="col">
+                              <div class="card p-4">
+                                 <div class="card-body"></div>
+                                 <div class="text-center">
+                                    <i class="fa fa-lock" style="font-size: 100px;"font></i>
+                                 </div>
+                                 <form id="mainform" role="form" autocomplete="off" class="form" method="post">
+                                    <div class="form-group">
+                                       <div class="input-group">
+                                          <div class="input-group-addon bg-light"><i class="fa fa-envelope-o color-blue" style="font-size: 30px; background: #e8e8e8; padding: 3px 8px;"></i></div>
+                                          <input id="email" name="email" placeholder="email address" class="form-control"  type="email" required="">
+                                       </div>
+                                    </div>
+                                    <div class="form-group text-center mt-4 mb-3">
+                                       <input name="submit" class="btn btn-primary" value="Reset Password" type="submit">
+                                    </div>
+                                    <div class="text-center">
+                                       <h5>Forgot Password?</h5>
+                                       <p class="muted">Back to <a href="login.html">Log In</a></p>
+                                    </div>
+                                    <input type="hidden" class="hide" name="token" id="token" value=""> 
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                   </div>
+                </div>
+              
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+    </script>
+      
+      
+    
+ 
+    
+    </body>
+    </html>

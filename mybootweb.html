@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+<body> 
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dark Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="">Home</a>
+     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="webDesign.html">Web Design</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       About
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="contact.html" tabindex="-1" >Contact us</a></li>
+       <li><a class="dropdown-item" href="action.html">Action</a></li>
+     <li><a class="dropdown-item" href="about.html">ABout-us</a></li>
+ 
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="Javascript.html" tabindex="-1" >Javascript</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="contact.html" tabindex="-1" >Contact-us</a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+    </form>
+ 
+     </div>
+     <div></div>
+       <!-- Button trigger modal -->
+   <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Singup
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title me-2" id="exampleModalLabel">Singup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container " id="c4" style="width:100% ;">
+            <div class="row justify-content-center">
+               <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="text-center m-auto">
+                             <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                          </div>
+                          <form action="#" method="post">
+                             <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                             <div class="form-group mb-3">
+                                <label for="fname">FIRST NAME </label>
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="fname">LAST NAME </label>
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="emailaddress">EMAIL </label>
+                                <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                                   <div class="input-group-addon">
+                                      <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <div class="input-group bg-light" id="show_hide_password">
+                                   <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                                </div>
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                             </div>
+                             <div class="form-group mb-0 d-flex justify-content-between">
+                                <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                             </div>
+                             <script>
+                                $(document).ready(function() {
+                                    $("#show_hide_password a").on('click', function(event) {
+                                        event.preventDefault();
+                                        if($('#show_hide_password input').attr("type") == "text"){
+                                            $('#show_hide_password input').attr('type', 'password');
+                                            $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').removeClass( "fa-eye" );
+                                        }else if($('#show_hide_password input').attr("type") == "password"){
+                                            $('#show_hide_password input').attr('type', 'text');
+                                            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                            $('#show_hide_password i').addClass( "fa-eye" );
+                                        }
+                                    });
+                 
+                                });
+                             </script>
+                          </form>
+                       </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //modal auto load
+    $(window).on('load', function() {
+      // $('#exampleModal').modal('show');
+    });
+  </script>
+         <button type="button" class="btn btn-outline-primary " ><a href="login.html" style="color:white ; text-decoration: none;"> Login</a></button>
+ 
+    </div>
+    </nav>
+    <br>
+    
+<div><center><h1><img style="margin-top:50px ; height: 100px; height: 100px;" src="data:image/png;base64,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" alt=""></h1></center><div style="float:left ; margin-top: -100px;" class="toast show top-0 end-0" role="alert" aria-atomic="true">
+        <div class="toast-header">
+          <img style="width:40px ; height: 40px;" src="data:image/jpeg;base64,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" class="rounded me-2" alt="...">
+          <strong class="me-auto">Dark Web</strong>
+          <small> now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div style="color:red ; background-color: black;" class="toast-body">
+          Alert! You Are Entering in a Unsecured website.
+        </div>
+      </div> 
+      </div>
+
+    <br>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <center>
+          <div class="carousel-item active">
+            <img  src="anil.jpg" alt="Los Angeles"  style="width:100%; height:550px ;">
+          </div>
+          <div class="carousel-item">
+            <img src= "anil1.jpg" alt="Chicago"  style="width:100%; height:550px ;">
+          </div>
+          <div class="carousel-item">
+            <img src="anil3.webp" alt="New York" class="d-block" style="width:100%; height:550px ;">
+          </div>
+        </center>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev"   type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next"   type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <div class="deep">
+       <!-- Button trigger modal -->
+     <center>  <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         Click Here
+       </button></center>
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title modal-title-primary" id="exampleModalLabel">Security</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+              With Halloween just around the corner, Marvel is proud to present CRYPT OF SHADOWS (2022) #1, an anthology comic packed with some of the spookiest characters the Marvel Universe has to offer. 
+
+Stop by for a spell for some all-new stories from your host Victor Strange, the vampiric younger brother of Doctor Stephen Strange himself. Throughout the book, Victor will share stories about his fellow vampire Morbius, Werewolf by Night, Moon Knight, Elsa Bloodstone, Man-Thing, Laura Kinney's Wolverine, and Bloodline, daughter of Blade. Our storytellers include Al Ewing, Ramon Bachs, Chris Cooper, Ibrahim Moustafa, Danny Lore, Karen S. Darboe, Chris Condon, Fran Galan, Rebecca Roanhorse, Geoff Shaw, and Adam Warren.
+
+A special first look at the issue shows Victor raising a glass of red liquid in a page out of Ewing and Bachs' "Crypt of Shadows" story. In a page from Roanhorse and Shaw's "Werewolf by Moon Knight," Werewolf by Night lets rip an earth-shattering roar during a costume party. A page from "Down Came the Rain" by Condon and Galan pits Elsa Bloodstone against a mutated, arachnid-like Spider-Man creature, while Lore and Darboe's "Neither Big Nor Bad" sees Bloodline battle a fiery entity with a prerecorded invocation.
+
+Elsewhere, a page from Cooper and Moustafa's "Skin Crawl" rouses Victoria Montesi from a nightmare about Doctor Michael Morbius. Finally, in a page from "Endless Slaughter in the Infinite Swamp," Wolverine burns at the touch of Man-Thing in the depths of his mystical swamp. 
+              </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+       <script type="text/javascript">
+       //modal auto load
+         $(window).on('load', function() {
+           // $('#exampleModal').modal('show');
+         });
+       </script>
+       <br>
+       <div class="border  border-dark rounded-pill bg-dark text-white text-center pt-5">
+       <pre>
+        Takeaway #1: The Dark Web isn’t just accessed by a small number of people.
+2 million active users connect to the Dark Web through the TOR browser every day.
+26% of North American and 17% of EU users access the Dark Web daily.
+Approximately one third of North Americans used the Dark Web in 2019.
+About 60% of the information on the Dark Web could potentially harm organizations
+
+        Takeaway #2: Dark Web activity is skyrocketing post-pandemic.
+Over 1,400 COVID-19 related domains were registered in Q1 2020.
+There was a 738% increase in COVID-19-related terms on the Dark Web in March 2020.
+Phishing attacks including COVID-19 scams have climbed 667% in 2020.
+Dark Web use has increased by more than 300% in the last 3 years. 
+ 
+
+Takeaway #3: The Dark Web economy is booming.
+An estimated 2 to 5% of the global GDP is laundered on the Dark Web in one year.
+More than 75% of Dark Web sites appear to be marketplaces.
+The price for access to corporate networks increased by 61% in Q1 2020.
+Cybercrime yields in excess of $1.5 trillion in revenue per year. 
+      </pre>
+      
+    </div>
+    <br><br>
+ <div class="d-flex justify-content-between d-flex-warnning  text-white">
+    <div class="align-self-start">https//www.darkweb.com</div>
+    <div class="align-self-end">https//www.securityinfo.com</div>
+    <div class="align-self-center">https//www.hackersweb.com</div>
+ </div>
+ 
+ <br>
+ <center>
+  <h1 style="background-color:blue ; color: white;  font-size: 50px; width: 20%; font-family: 'Courier New', Courier, monospace;">Dark Web</h1>
+ </center>
+ <center>
+ <div class="container">
+  
+  <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+<center>
+    <div class="col-sm-10 bg-dark text-center text-white p-5">
+      The dark web is a part of the internet that isn't indexed by search engines. You've no doubt heard talk of the “dark web” as a hotbed of criminal activity — and it is. Researchers Daniel Moore and Thomas Rid of King's College in London classified the contents of 2,723 live dark web sites over a five-week period in 2015 and found that 57% host illicit material. 
+
+      A 2019 study, Into the Web of Profit, conducted by Dr. Michael McGuires at the University of Surrey, shows that things have become worse. The number of dark web listings that could harm an enterprise has risen by 20% since 2016. Of all listings (excluding those selling drugs), 60% could potentially harm enterprises.
+      
+      
+      [ Learn the 10 things you should know about dark web websites | Get the latest from CSO by signing up for our newsletters. ]
+      
+      You can buy credit card numbers, all manner of drugs, guns, counterfeit money, stolen subscription credentials, hacked Netflix accounts and software that helps you break into other people’s computers. Buy login credentials to a $50,000 Bank of America account, counterfeit $20 bills, prepaid debit cards, or a “lifetime” Netflix premium account. You can hire hackers to attack computers for you. You can buy usernames and passwords.
+      
+      Not everything is illegal, the dark web also has a legitimate side. For example, you can join a chess club or BlackBook, a social network described as the “the Facebook of Tor.”
+      
+      Note: This post contains links to dark web sites that can only be accessed with the Tor browser, which can be downloaded for free at https://www.torproject.org. 
+      
+    </div>
+</center>    
+  </div>
+ </div>
+ </center>
+ <!-- Flexbox container for aligning the toasts -->
+ <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center mt-5" style="">
+ 
+  <!-- Then put toasts within -->
+  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" style="width:50% ; height: 500px;">
+    <div class="toast-header bg-dark text-center text-white">
+    <img style="width:50px ; height: 30px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJZhbcQEPFEODYt4VbAtkjR4_Eh8Kryxq2A&usqp=CAU" class="rounded me-2" alt="">
+    <strong class="me-auto">Dark Web</strong>
+    </button>
+    </div>
+    <div class="toast-body" style="width: 80%;">
+      <iframe width="100%" style="width: 100%;" height="340px" src="https://www.youtube.com/embed/nTGdLFf0gE8" title="What is The Dark Web and How to Access it Safely?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <center><h1>Dark Web </h1></center>
+ <p>it is the most populsr web in all the world. It have many security wall inside it in Its Hardware system.</p>
+    </div>
+  </div>
+   </div>
+   </div>
+   <br>
+   <div class="container">
+    <h1 style="text-align:center ; color: red; background: #000;">Some Intresting Facts about Dark Web</h1>   </div>
+    <div class="container-fluid">
+      <p style="background-color: lightcyan;">
+         <li> Dark Web activity has increased by 300% in the last 3 years. 
+Over 30% of North Americans access the dark web regularly. 
+ In 2020, credentials for about 133,927 C-level Fortune 1000 executives were available on the dark web
+More than 22 billion new records were added to the dark web in 2020
+Satellite affiliates of cybercrime gangs pay the boss gang 10 – 20% of the take on each successful job
+An astonishing 25,927,476 passwords that belong to employees at Fortune 1000 companies were available readily in dark web markets and data dumps.
+About 65% of active criminal gangs rely on spear phishing powered by dark web data to launch attacks.
+The largest credential file to ever hit the dark web at once is the RockYou2021 password leak.  
+Hackers attack every 39 seconds, on average 2,244 times a day.  
+60% of the information available on the Dark Web could potentially harm enterprises. </li> <br>
+<li> An estimated 90% of posts on dark web forums are from buyers looking to contract someone for cybercrime. 
+Almost 70% of dark web forum hiring posts were looking for cybercriminals to do some website hacking.
+Over 20% were looking for bad actors who could obtain specifically targeted user or client databases.  
+About 7% of forum posts were ads for hackers looking for work.
+2% of forum posts were made by cybercriminal developers who were selling the tools. </li> <br>
+<li> Passly includes an array of secure identity and access management tools cited by experts as key security moves that add immediate protection against the results of social engineering. Essentials like multifactor authentication make phished passwords useless and single sign-on to make access control easy and avoid credential sharing. 
+Dark Web ID enables you to get a clear picture of your company’s credential compromise threats from dark web sources. Our 24/7/365 always-on monitoring alerts businesses to credentials appearing on the dark web that may have been stolen or phished to mitigate the risk of bad actors using a stolen password to gain access to your systems and data.
+BullPhish ID improves your staff’s security awareness and increases phishing resistance and equips them to sniff out complex social engineering threats. Fully customizable content means that businesses can run simulations based on the real threats that they receive every day.    
+Don’t just take our word for it: Watch these 10-minute demonstration videos: https://www.idagent.com/learn-more. </li> <br>
+<li> As a result of hacking, both users and companies themselves may be affected. The web application security analysis conducted by Positive Technologies shows that criminals can conduct attacks on clients in 92% of web applications; in 68% of cases, there is a danger of a data leak; and in 16% of cases, attackers can gain control over the application and the server OS.
+
+In this article, we will talk about why criminals hack websites, and what consequences there may be for the owners and users of hacked resources.
+
+We have selected the ten most active forums on the dark web, which offer services for hacking websites, buying and selling databases, and accessing web resources. In total, more than 8 million users are registered on these forums, more than 7 million topics have been created, and more than 80 million messages have been published.
+
+Note that this article does not consider ads that are posted in messages on such forums and related to services for organizing DDoS attacks on web resources, since in this case, the motives, goals, and tools of the attackers and those who hire them differ radically and go beyond the scope of this research. </li> <br>
+ <li> Since March 2020, we have noticed a surge of interest in website hacking. This might have been caused by an increase in the number of companies available via the Internet, which was triggered by the COVID-19 pandemic. Organizations that previously worked offline were forced to go online in order to maintain their customers and profits, and cybercriminals, naturally, took advantage of this situation.
+
+The following graph shows the number of new ads on dark web forums. Ads are posted not only by new members, but also by hackers with an established reputation. The latter do this as a form of self-promotion. It is difficult to determine which ads are duplicates and which have lost relevance, so we do not give the number of hackers or groups that actively provided hacking services at the beginning of 2019 or who are doing it today.
+
+</li>
+
+      </p>
+    </div>
+    <div class="container-fluid">
+<center><h1>Dark Web Accessor</h1></center>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+        style="width: 95%; height: 100px;" aria-valuenow="25" aria-valuemin="0" valuemax="100">Users</div>
+</div>
+A billion of users access Dark WEb and do their project without tracing their ip address.It is a great opportunity for them. <div class="spinner-border text-primary" role="status">
+  <span class="visually">Dark</span>
+</div>
+</div>
+<br>
+<div class="beep">
+  <h1 style="text-align:center ;">How I get Job In dark Web</h1>
+  <p style="background-color:lightblue ;">Dark Roast Java Developer - Brand...
+  
+    This is a test job. Do not apply. Below is latin for formatting purposes Sed ut perspiciatis unde omnis iste
+     API Test Account 2 Dallas, TX3 weeks agoEasy Apply
+    Dark Roast Java Developer - Brand Max Mock Up Job role from API Test Account in Woodward, IA
+    Dark Roast Java Developer - Brand...
+      
+    This is a test job. Do not apply. Below is latin for formatting purposes Sed ut perspiciatis unde omnis iste
+     API Test Account Woodward, IA3 weeks agoEasy Apply
+    Web Developer role from Data Intelligence in San Diego, CA
+    Web Developer
+      
+    Data Intelligence is currently looking to hire a Web Developer on a full time, permanent basis. This position is located
+     Data Intelligence San Diego, CA1 month agoEasy Apply
+    Senior Product Manager - Digital Web Applications role from DISH Network in Littleton, CO
+    Senior Product Manager - Digital...
+      
+    Job Duties and Responsibilities The Platform Strategy and Analysis team under the DISH Retail Wireless Technology organization is...
+     DISH Network Littleton, CO2 days agoEasy Apply
+    Java Web Developer III role from Elevance Health in 
+    Java Web Developer III
+      
+    The Engineer III is responsible for the delivery of end-to-end system development and maintenance on complex technology systems within...
+     Elevance Health18 hours ago
+    Junior Web Developer with Polygraph role from Deloitte in Rosslyn, VA
+    Junior Web Developer with Polygraph
+      
+    Are you interested in working in a dynamic environment that offers opportunities for professional growth and new responsibilities? Are...
+     Deloitte Rosslyn, VA9 hours ago
+    Web Application Firewall Security Engineer role from TransUnion in Chicago - 555 West Adams St
+    Web Application Firewall Security...
+      
+    TransUnion's Job Applicant Privacy Notice What We'll Bring: At TransUnion, we have a welcoming and energetic environment that...
+     TransUnion Chicago - 555 West Adams St6 hours ago
+    Software Development Engineer - Amazon Web Services, AWS Data Platform role from Amazon in Seattle, WA
+    Software Development Engineer -...
+      
+    DESCRIPTION Job summary Join a rapidly growing team of software engineers that are building best-in-class tools and large-scale...
+     Amazon Seattle, WA6 hours ago
+    Web Software Developer role from Northrop Grumman in Walpole, MA
+    Web Software Developer
+      
+    At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around...
+     Northrop Grumman Walpole, MA5 hours ago</p></div><br>
+
+     <div class="demo">
+      <center> <h1>Most Powerful Web</h1></center>
+      <iframe width="100%" height="530" src="https://www.youtube.com/embed/ngT2Aq1VBFc" title="Dark Web: How The Unseen Internet Is Accessed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>   
+     <br>
+     <div class="accordion" id="accordionExample">
+       <div class="accordion-item">
+         <h2 class="accordion-header" id="headingOne">
+           <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             About Us:
+           </button>
+         </h2>
+         <div id="collapseOne" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+           <div class="accordion-body">
+             <strong>This is Dark Web</strong> Dark net is  a Hidden network. The simple people can not access it. because it not easy to access without knowledge.It is  highlly restricted Area. At this web your ip address is safe and can not tracked from any software. So it is easy for the hacker to make their experiment on the official sites.  <code>www.darknet.com</code>, though the transition does limit overflow.
+           </div>
+         </div>
+       </div>
+       <div class="accordion-item">
+         <h2 class="accordion-header" id="headingTwo">
+           <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             Contact Us:
+           </button>
+         </h2>
+         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+           <div class="accordion-body">
+             <strong>Dark Web:</strong>Our address is not mentioned at anywhere.Because it is against of our CEO's rule.If you want to use this web than you can use it without any error. <code>www.darknet.com</code>,This is our official web
+           </div>
+         </div>
+       </div>
+       <div class="accordion-item">
+         <h2 class="accordion-header" id="headingThree">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Info:
+           </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+           <div class="accordion-body">
+             <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+           </div>
+         </div>
+       </div>
+     </div>
+     <br>
+     <style>
+      /*move page top*/
+     .top-move {
+         position: fixed;
+         right: 19px;
+         z-index: 100;
+         text-align: center;
+         bottom: 48px;
+         background: #5ca9d1;
+         padding: 5x;
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         height: 60px;
+         width: 60px;
+     }
+     
+     .top-move a{
+         color: white;
+     }
+     .top-move a i{
+     padding-top: 7px;
+         font-size: 3rem;
+     }
+     </style>
+     <div class="top-move" id="move-top">
+       <a href="#"><i class="fa fa-angle-up fa-3x"></i></a>
+     </div>
+     <script>
+     // scroll functions
+     $(window).scroll(function(e) {
+     $('#move-top')[$(window).scrollTop() <= 150 ? 'addClass' : 'removeClass']('d-none');
+     })
+     
+     </script>
+     <br>
+
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Dark Net
+    <span class="badge bg-primary rounded-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Security Inspection
+    <span class="badge bg-primary rounded-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Dark Web
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+</ul>
+<br>
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">How to access</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Dark Web'work</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">What is Dark Web?</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">The safest way to get on the dark web is through the Tor network. For added safety, first connect to a VPN, then use Tor in a practice known as Tor-over-VPN. Many internet service providers (ISPs) and governments may be suspicious of Tor use, and a VPN will hide your internet activity and prevent anyone from knowing that you’re using Tor.
+
+    Connect to a reliable and safe VPN.
+    
+    Conceal your IP address and encrypt your internet connection with a trustworthy VPN like Avast SecureLine VPN. Though they both provide encryption, a VPN and Tor are not the same thing. A VPN will prevent your ISP and anyone else from knowing that you're downloading and using Tor Browser.
+    
+    Download and install Tor Browser.
+    
+    Tor Browser is a free browser that routes your traffic through the encrypted Tor network. Download Tor Browser from the official Tor Project website, because unlicensed third-party downloads may come bundled with malware.
+    
+    Browse the dark web with Tor Browser.
+    
+    Tor Browser will let you access the .onion domains of the dark web. Because the dark web is largely unregulated, never visit dark websites without first confirming their authenticity.
+    
+    Protect your identity.
+    
+    The dark website isn’t always dangerous, but many scams do exist. When communicating or making purchases over the dark web, use encrypted and anonymous email addresses and pay with an anonymous cryptocurrency wallet.
+    
+    Before accessing the dark web, install strong security software to keep your device protected.</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">The quickest way to access the dark web is to download and install Tor Browser, which will route your traffic through the Tor network and let you access the dark web. On Tor, you can type in any URL you’d like to visit, including .onion domains on the dark web.</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">The dark web refers to content on the internet that is intentionally hidden and requires special software, like Tor Browser, to access. The dark web is a subset of the deep web, which is all content on the internet that isn't indexed by search engines.</div>
+</div>
+<br>
+ <div class="progress">
+     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Network</div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">Processor</div>
+  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Editify</div>
+  <div class="progress-bar bg-dark" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Security</div>
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Hosting</div>
+   </div>
+   <br>
+  b
+ <br>
+ <div class="container mt-5 pt-5 mb-5" id="c4">
+   <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-4">
+         <div class="card">
+             <div class="card-body">
+                 <div class="text-center m-auto">
+                    <h4 class="text-uppercase text-center">CREATE ACCOUNT</h4>
+                 </div>
+                 <form action="#" method="post">
+                    <input type="hidden" name="csrftoken" value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                    <div class="form-group mb-3">
+                       <label for="fname">FIRST NAME </label>
+                       <input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+                    </div>
+                    <div class="form-group mb-3">
+                       <label for="fname">LAST NAME </label>
+                       <input type="text" name="lname" placeholder="Last Name" class="form-control" required="">
+                    </div>
+                    <div class="form-group mb-3">
+                       <label for="emailaddress">EMAIL </label>
+                       <input type="email" name="email" placeholder="Enter Email" class="form-control" required="">
+                    </div>
+                    <div class="form-group mb-3">
+                       <label for="password">PASSWORD</label>
+                       <div class="input-group bg-light" id="show_hide_password">
+                          <input type="password" class="form-control" id="password" value="" name="password" placeholder="Enter Password" required="">
+                          <div class="input-group-addon">
+                             <a href=""><i class="fa fa-lg fa-eye" style="padding-top: 10px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="form-group mb-3">
+                       <label for="password">CONFIRM PASSWORD</label>
+                       <div class="input-group bg-light" id="show_hide_password">
+                          <input type="password" class="form-control" id="confirm-password" value="" name="password" placeholder="Enter Password" required="">
+                       </div>
+                    </div>
+                    <div class="form-group mb-3">
+                       <label class="custom-checkbox">SUBSCRIBE TO OUR NEWSLETTER?<p></p><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+                    </div>
+                    <div class="form-group mb-0 d-flex justify-content-between">
+                       <button class="btn btn-dark btn-block" type="submit" name="submit" id="submit">Sign Up </button>
+                       <p class="muted pt-2">Back to <a href="login.html" class="theme-secondary-text">Log In  →</a></p>
+                    </div>
+                    <script>
+                       $(document).ready(function() {
+                           $("#show_hide_password a").on('click', function(event) {
+                               event.preventDefault();
+                               if($('#show_hide_password input').attr("type") == "text"){
+                                   $('#show_hide_password input').attr('type', 'password');
+                                   $('#show_hide_password i').addClass( "fa-eye-slash" );
+                                   $('#show_hide_password i').removeClass( "fa-eye" );
+                               }else if($('#show_hide_password input').attr("type") == "password"){
+                                   $('#show_hide_password input').attr('type', 'text');
+                                   $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                                   $('#show_hide_password i').addClass( "fa-eye" );
+                               }
+                           });
+        
+                       });
+                    </script>
+                 </form>
+              </div>
+         </div>
+      </div>
+   </div>
+ </div>
+
+<br>
+
+<style>
+   .pulses-container {
+  display: flex;
+}
+
+.pulse {
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+}
+
+.pulse.purple {
+  background: rgba(142, 68, 173, 1);
+  box-shadow: 0 0 0 0 rgba(142, 68, 173, 1);
+  animation: pulse-purple 2s infinite;
+}
+
+@keyframes pulse-purple {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(142, 68, 173, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
+  }
+}
+
+
+
+</style>
+
+<div class="pulses-container">
+   <div class="pulse purple" id="c1"></div>Access Web
+</div>
+     <form class="row g-3 needs-validation" novalidate>
+       <div class="col-md-4">
+         <label for="input1" class="form-label">First name:</label>
+         <input type="text" class="form-control" id="input1" placeholder="FirstName..." required>
+         <div class="valid-feedback">
+           Looks good!
+         </div>
+       </div>
+       <div class="col-md-4">
+         <label for="input2" class="form-label">Last name:</label>
+         <input type="text" class="form-control" id="input2" placeholder="LastName..." required>
+         <div class="valid-feedback">
+           Looks good!
+         </div>
+       </div>
+       <div class="col-md-4">
+         <label for="input3" class="form-label">Username:</label>
+         <div class="input-group has-validation">
+           <span class="input-group-text" id="inputGroupPrepend">@</span>
+           <input type="text" class="form-control" id="input3" placeholder="Username.." aria-describedby="inputGroupPrepend" required>
+           <div class="invalid-feedback">
+             Please choose a username.
+           </div>
+          </div>
+       </div>
+       <div class="col-md-4">
+       <label for="input3" class="form-label">Password:</label>
+       <div class="input-group has-validation">
+         <span class="input-group-text" id="inputGroupPrepend">@</span>
+         <input type="password" class="form-control" id="input3" placeholder="Password..." aria-describedby="inputGroupPrepend" required>
+         <div class="invalid-feedback">
+           Please enter your password!
+         </div>
+       </div>
+       </div>
+       <div class="col-md-4">
+         <label for="input4" class="form-label">City:</label>
+         <input type="text" class="form-control" id="input4" placeholder="city.." required>
+         <div class="invalid-feedback">
+           Please provide a valid city.
+         </div>
+       </div>
+       <div class="col-md-4">
+         <label for="select1" class="form-label">State:</label>
+         <select class="form-select" id="select1" required>
+           <option selected disabled value=""></option>
+           <option>Haryana</option>
+           <option value="Hisar">Punjab</option>
+           <option value="">Rajsthan</option>
+           <option value="">Bihar</option>
+           <option value="">tamilnadu</option>
+           <option value="">Kerla</option>
+           <option value="">Assam</option>
+         </select>
+         <div class="invalid-feedback">
+           Please select a valid state.
+         </div>
+       </div>
+       <div class="col-md-3">
+         <label for="input5" class="form-label">Pin Code:</label>
+         <input type="text" class="form-control" id="input5" required>
+         <div class="invalid-feedback">
+           Please provide a valid zip.
+         </div>
+       </div>
+       <div class="col-12">
+         <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="check" required>
+           <label class="form-check-label" for="check">
+             Agree to terms and conditions
+           </label>
+           <div class="invalid-feedback">
+             You must agree before submitting.
+           </div>
+         </div>
+       </div>
+       <div class="col-12">
+         <button class="btn btn-primary" type="submit">Submit</button>
+       </div>
+     </form>
+     <script>
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (function () {
+       'use strict'
+     
+       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+       var forms = document.querySelectorAll('.needs-validation')
+     
+       // Loop over them and prevent submission
+       Array.prototype.slice.call(forms)
+         .forEach(function (form) {
+           form.addEventListener('submit', function (event) {
+             if (!form.checkValidity()) {
+               event.preventDefault()
+               event.stopPropagation()
+             }
+     
+             form.classList.add('was-validated')
+           }, false)
+         })
+     })()
+     </script>
+  <br>
+  
+  
+  <h1 class="text-center" id="c2">Contact Us</h1>
+  <form method="post" action="" role="form">
+     <div class="messages"></div>
+     <div class="controls">
+        <div class="row">
+           <div class="col-md-6">
+              <div class="form-group mb-2">
+                 <label for="form_name">Firstname <span class="text-danger">*</span></label>
+                 <input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname" required="">
+              </div>
+           </div>
+           <div class="col-md-6">
+              <div class="form-group mb-2">
+                 <label for="form_lastname"><span class="text-danger">*</span></label>
+                 <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Lastname" required="">
+              </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">
+              <div class="form-group mb-2">
+                 <label for="form_email">Email <span class="text-danger">*</span></label>
+                 <input id="form_email" type="email" name="email" class="form-control" placeholder="email" required="">
+              </div>
+           </div>
+           <div class="col-md-6">
+              <div class="form-group mb-2">
+                 <label for="form_phone">Phone</label>
+                 <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="phone">
+              </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-12">
+              <div class="form-group mb-2">
+                 <label for="form_message">Message <span class="text-danger">*</span></label>
+                 <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required"></textarea>
+              </div>
+           </div>
+           <div class="col-md-12 mt-2">
+              <input type="submit" class="btn btn-success btn-send" value="Send message">
+           </div>
+        </div>
+     </div>
+  </form>
+  <br>
+  <center>
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </center>
+  
+     
+  </body>
+</html>
+ 
